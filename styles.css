@@ -1,0 +1,132 @@
+
+*{
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#navbar-pinterest{
+    position: fixed;
+    display:flex;
+    justify-items: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+    
+}
+#pinterest-icon{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    border-radius: 50%;
+    background-color: none;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    content: url(./svg/icons8-pinterest.svg);
+    padding: 5px;
+}
+#pinterest-icon:hover{
+    background-color: #EFEFEF;
+    transition: 0.2s;
+}
+#finder{
+    display: flex;
+    width: 100%;
+}
+.finder-bar{
+    display: flex;
+    justify-content:center;
+    padding: 15px 10px 15px 35px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 100px;
+    color: #444;
+    border:none;
+    background: #EFEFEF url(./svg/icons8-search.svg) no-repeat 2px center;
+    width:100%;
+    margin: 4px;
+
+}
+.finder-bar:hover{
+    background: #c0baba url(./svg/icons8-search.svg) no-repeat 2px cen;
+}
+#btn-container{
+    display: flex;
+    flex-flow: row nowrap;
+    width:auto;
+}
+#notification-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width:auto;
+}
+
+.btn{
+    display: block;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background: #EFEFEF;
+    text-decoration: none;
+    color: black;
+}
+#btn-inicio{
+    background-color: black;
+    color: white;
+}
+.ols{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#notification{
+    background: url(./svg/bxs-bell-ring.svg) no-repeat center;
+    
+}
+#message{
+    background: url(./svg/bxs-chat.svg) no-repeat center;
+}
+#profile-imgs{
+    content: url(./svg/bxs-circle.svg);
+}
+#abajo{
+    background: url(./svg/bxs-chevron-down.svg) no-repeat center;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 13px;
+}
+#abajo:hover{
+    background-color: #EFEFEF;
+    transition: 0.2s;
+}
+#notification:hover{
+    background-color: #EFEFEF;
+    transition: 0.5s;
+}
+#message:hover{
+    background-color: #EFEFEF;
+    transition: 0.5s;
+}
+#profile-img:hover{
+    background-color: #EFEFEF;
+    transition: 0.5s;
+}
