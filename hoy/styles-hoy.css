@@ -42,7 +42,7 @@ body{
     text-decoration: none;
     overflow: hidden;
     text-align: center;
-    content: url(./svg/icons8-pinterest.svg);
+    content: url(../svg/icons8-pinterest.svg);
     padding: 5px;
 }
 #pinterest-icon:hover{
@@ -62,13 +62,13 @@ body{
     border-radius: 100px;
     color: #444;
     border:none;
-    background: #EFEFEF url(./svg/icons8-search.svg) no-repeat 2px center;
+    background: #EFEFEF url(../svg/icons8-search.svg) no-repeat 2px center;
     width:100%;
     margin: 4px;
 
 }
 .finder-bar:hover{
-    background: #c0baba url(./svg/icons8-search.svg) no-repeat 2px cen;
+    background: #c0baba url(../svg/icons8-search.svg) no-repeat 2px cen;
 }
 #btn-container{
     display: flex;
@@ -106,17 +106,17 @@ body{
     cursor: pointer;
 }
 #notification{
-    background: url(./svg/bxs-bell-ring.svg) no-repeat center;
+    background: url(../svg/bxs-bell-ring.svg) no-repeat center;
     
 }
 #message{
-    background: url(./svg/bxs-chat.svg) no-repeat center;
+    background: url(../svg/bxs-chat.svg) no-repeat center;
 }
 #profile-imgs{
-    content: url(./svg/bxs-circle.svg);
+    content: url(../svg/bxs-circle.svg);
 }
 #abajo{
-    background: url(./svg/bxs-chevron-down.svg) no-repeat center;
+    background: url(../svg/bxs-chevron-down.svg) no-repeat center;
     margin-top: 10px;
     margin-right: 18px;
     width: 30px;
