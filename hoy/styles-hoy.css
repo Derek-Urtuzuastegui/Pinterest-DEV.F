@@ -181,6 +181,7 @@ body{
     border-radius: 30px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 .card-img:hover{
     filter: brightness(.7);
