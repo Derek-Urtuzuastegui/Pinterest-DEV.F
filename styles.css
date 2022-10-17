@@ -145,10 +145,7 @@ img{
     cursor:zoom-in;
     transition: 0.5s;
 }
-img:hover{
-    filter:blur(1.5px) brightness(.5);
-    transform: scale(1.02);
-}
+
 
 #content{
     display: flex;
@@ -163,9 +160,39 @@ img:hover{
     padding: 8px;
 
 }
-.columna img{
-    
-    margin-top: 35px;
+.oli{
+    position: absolute;
+}
+.card-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 35px;
+    position: relative;
+}
+.card-hover{
+    padding: 15px;
+    position: absolute;
+    filter: opacity(0);
+}
+#btn-guardar{
+    background-color: red;
+    color: white;
+}
+#btn-guardar:hover{
+    background-color: rgb(165, 21, 21);
+}
+#btn-guardar:active{
+    transform: scale(0.9);
+}
+.card-image:hover .card-hover{
+    filter:opacity(1);
+    transform:scale(1.02);
+}
+.card-image:hover .card-img{
+    filter:blur(2px) brightness(0.7) ;
+    transform:scale(1.02);
+    -webkit-filter:blur(2px) brightness(0.7) ;
 }
 @media (max-width: 1100px){
     .columna{
@@ -177,17 +204,7 @@ img:hover{
         flex: 100%;
     }
 }
-.card-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.oli{
-    position: absolute;
-}
-::-webkit-scrollbar{
-    width: 13px;
-}
+
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(rgb(70, 14, 14), rgb(253, 45, 45));
     border-radius: 10px;
